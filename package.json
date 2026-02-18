@@ -5,15 +5,15 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "npx @tailwindcss/cli -i ./css/input.css -o ./css/output.css --watch",
-    "dev": "vite"
+    "build": "vite build",
+    "dev": "vite",
+    "preview":"vite preview"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "commonjs",
   "dependencies": {
-    "@tailwindcss/cli": "^4.1.18",
     "tailwindcss": "^4.1.18",
     "vite": "^7.3.1"
   }
